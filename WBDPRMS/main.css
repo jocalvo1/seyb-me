@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+.form-wrapper {
+  margin: 0 auto;
+  width: 375px;
+}
+.admin, .user, .staff {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  outline: none;
+  transition: all 250ms ease-in-out;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
+.admin {
+  background-color: var(--danger600);
+}
+.admin:hover {
+  background-color: var(--danger400);
+}
+.admin:active {
+  background-color: var(--danger500);
+}
+.user {  
+  background-color: var(--primary600);
+}
+.user:hover {
+  background-color: var(--primary400);
+}
+.user:active {
+  background-color: var(--primary500);
+}
+.staff {  
+  background-color: var(--success600);
+}
+.staff:hover {
+  background-color: var(--success400);
+}
+.staff:active {
+  background-color: var(--success500);
+}
+
+.admin:hover, .staff:hover, .user:hover{
+  color: white;
+}

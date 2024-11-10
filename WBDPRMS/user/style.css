@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+.form-wrapper {
+  margin: 0 auto;
+  width: 375px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.regis, .user {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+}
+.regis {
+  background-color: var(--primary500);
+}
+.regis:hover{
+  background-color: var(--primary400);
+}
+.regis:focus{
+  background-color: var(--primary400);
+  border:none;
+}
+.regis:active{
+  background-color: var(--primary500);
+}
+.user {
+  margin-left: 12px;
+  background-color: var(--success500);
+}.user:hover {
+  background-color: var(--success400);
+}
+.user:focus{
+  background-color: var(--success400);
+}
+.user:active{
+  background-color: var(--success500);
+}
+.back {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  outline: none;
+  transition: all 250ms ease-in-out;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
+.back {
+  background-color: var(--danger600);
+}
+.back:hover {
+  background-color: var(--danger400);
+  color: white;
+}
+.back:active {
+  background-color: var(--danger500);
+  color: white;
+}
+
+/*
+  REGISTER  
+*/
+
+.file-input{
+  box-sizing: border-box;
+  background-color:var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  border-bottom: 2px solid #007bff;
+  width: 100%;
+}
+.file-input:active {
+  outline: none;
+  border-color: #80bdff;
+}
+.file-input:focus {
+  outline: none;
+  border-color: #6fa9e7;
+}
+.file-input:hover {
+  outline: none;
+  border-color: #0056b3; 
+}
+
+/* Appointment */
+
+.expanded-textarea {
+  width: 100%;
+  height: 500px; /* You can adjust this */
+}

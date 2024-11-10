@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+.form-wrapper {
+  margin: 0 auto;
+  width: 375px;
+}
+.back {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  outline: none;
+  transition: all 250ms ease-in-out;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
+.back {
+  background-color: var(--danger600);
+}
+.back:hover {
+  background-color: var(--danger400);
+  color: white;
+}
+.back:active {
+  background-color: var(--danger500);
+  color: white;
+}
